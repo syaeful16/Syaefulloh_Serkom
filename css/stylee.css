@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    width: 55vw;
+    max-height: 70%;
+    /* background-color: blue; */
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    background-color: white;
+}
+
+.main .form-input {
+    /* background-color: aquamarine; */
+    padding: 3rem;
+}
+
+.form-input .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-input .header a {
+    text-decoration: none;
+    background-color: rgb(46, 116, 221);
+    padding: 10px 14px;
+    border-radius: 4px;
+    color: white;
+}
+
+.form-input .header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.form-input form {
+    margin-top: 1rem;
+}
+
+.main .img-input {
+    position: relative;
+}
+
+.main .img-input img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main .img-input div {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.main .img-input h2 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 60px;
+    line-height: 56px;
+    font-style: italic;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+}
+
+
+.input-value {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.input-value label {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-value input, .input-value textarea{
+    background-color: white;
+    padding: 10px 10px;
+    width: 90%;
+    max-width: 90%;
+    max-height: 100px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-value .filename{
+    display: grid;
+    grid-template-columns: 65% auto;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-value .filename div:nth-child(1) {
+    background-color: white;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.input-value .filename div:nth-child(2) button{
+    width: 100%;
+    height: 100%;
+    padding: 6px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    background-color: rgb(46, 116, 221);
+}
+
+.col-2 h3 {
+    margin-top: 1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.col-2 h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-simpan {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 14px 0;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(46, 116, 221);
+}
